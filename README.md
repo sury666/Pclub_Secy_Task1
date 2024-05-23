@@ -1,8 +1,6 @@
-# Pclub_Secy_Task1
-
 <div align = "center">
 
-  ## The Magical Creatures Census
+  # The Magical Creatures Census
 Time limit per test : 2 seconds  
 Memory limit per test : 256 megabytes  
 Input : Standard input  
@@ -10,27 +8,25 @@ Output : Standard output
 
 </div>
 
-### Problem Statement:
-
 The Ministry of Magic is conducting a census of magical creatures in the Forbidden Forest. Every magical creature in the forest has a **unique** degree of danger and a specific habitat preference. The Ministry wants to make sure that the census teams are distributed effectively so that they can cover the whole forest with the least amount of danger they have to face.  
 Given a list of magical creatures with their danger levels and habitat preferences, as well as the number of census teams available, *minimize the sum of the maximum danger levels encountered by each teams* while ensuring that each habitat preference is covered by **exactly one** team. Print that minimum sum.
 
-### Input:
+## Input:
 
 The first line contains three integers $n$ (number of magical creatures), $m$ (number of habitat preferences) and $k$ (number of census teams available).  
 The next $n$ lines each contain two integers $d_i$ and $h_i$ (the danger level and habitat preference of each magical creature respectively).
 
-### Output:
+## Output:
 
 Print a single integer representing the minimalized sum of the maximum danger levels encountered by each team.
 
-### Constraints:
+## Constraints:
 
 $1 \leq n, m, k \leq 1000$  
 $1 \leq d_i \leq 1000$  
 $1 \leq h_i \leq 100$
 
-### Example:
+## Example:
 
 ### Input:
 
