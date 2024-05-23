@@ -5,9 +5,9 @@
 </div>
 
 This problem requires an efficient allocation of census teams to cover the entire Forbidden Forest while minimizing the total maximum danger encountered by each team.
-In order to accomplish this, we must assign teams to different habitat preferences, making sure that the entire forest area is covered.
+To accomplish this, we must assign teams to different habitat preferences, making sure that the entire forest area is covered.
 Store the danger levels of each habitat in a vector and sort it. Allocate the first $k-1$ teams to the least $k-1$ highest danger levels in each habitat.
-Assign the rest of the magical creatures to the last team. This way, the maximum danger encountered by the last team will be the highest danger level in all magical creatures, and the highest danger levels faced by the rest of the teams will be minimum.
+Assign the rest of the magical creatures to the last team. This way, the maximum danger encountered by the last team will be the highest danger level in all magical creatures, and the highest danger levels faced by the rest of the teams will be the minimum.
 
 Now, let's analyze the solution:
 
