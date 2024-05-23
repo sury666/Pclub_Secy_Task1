@@ -1,0 +1,9 @@
+<#assign min-d = 1>
+<#list 1..9 as j>
+<#assign min-n = 1>
+<#list 1..9 as i>
+generator -min-n ${min-n} -min-d ${min-d} > $
+<#assign min-n = min-n * 100>
+</#list>
+<#assign min-d = min-d * 100>
+</#list>
