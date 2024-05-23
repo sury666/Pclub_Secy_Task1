@@ -13,18 +13,12 @@ Given a list of magical creatures with their danger levels and habitat preferenc
 
 ## Input:
 
-The first line contains three integers $n$ (number of magical creatures), $m$ (number of habitat preferences) and $k$ (number of census teams available).  
-The next $n$ lines each contain two integers $d_i$ and $h_i$ (the danger level and habitat preference of each magical creature respectively).
+The first line contains three integers $n$ (number of magical creatures), $m$ (number of habitat preferences), and $k$ (number of census teams available) ($1 \leq n, m, k \leq 1000$).  
+The next $n$ lines each contain two integers $d_i$ ($1 \leq d_i \leq 1000$), and $h_i$ ($1 \leq h_i \leq 100$) (the danger level and habitat preference of each magical creature respectively).
 
 ## Output:
 
 Print a single integer representing the minimalized sum of the maximum danger levels encountered by each team.
-
-## Constraints:
-
-$1 \leq n, m, k \leq 1000$  
-$1 \leq d_i \leq 1000$  
-$1 \leq h_i \leq 100$
 
 ## Example:
 
@@ -45,7 +39,7 @@ $1 \leq h_i \leq 100$
 9
 ```
 
-### Explanation:
+### Note:
 
 The available magical creatures are:  
 
@@ -55,10 +49,10 @@ The available magical creatures are:
 * Creature 4: Danger 4 & Habitat 3  
 * Creature 5: Danger 6 & Habitat 2
 
-The available habitat preferences are: 1, 2 and 3.  
+The available habitat preferences are 1, 2, and 3.  
 With 2 census teams available, the optimal allocation is:  
 
-* Team 1 covers habitats 1, encountering creatures 1 and 3 with a maximum danger of 3.  
-* Team 2 covers habitat 2 and 3, encountering creatures 2, 4 and 5 with a maximum danger level of 6.
+* Team 1 covers habitats 1, encountering creatures 1, and 3 with a maximum danger of 3.  
+* Team 2 covers habitats 2 and 3, encountering creatures 2, 4, and 5 with a maximum danger level of 6.
 
-The minimalized sum of the maximum danger level encountered by each teams is 9 ($3 + 6$).  
+The minimalized sum of the maximum danger level encountered by each team is 9 ($3 + 6$).  
